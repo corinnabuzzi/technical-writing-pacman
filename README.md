@@ -27,7 +27,7 @@
 
 ## 🗂️ Struttura della Repository
 
-pacamna/
+pacman/
 │
 ├── src/ # Codice sorgente del gioco
 │ ├── core/ # Game loop, gestione input, collisioni
@@ -45,9 +45,6 @@ pacamna/
 ├── tests/ # Test automatici e prototipi
 │
 └── README.md # Questo file
-
-yaml
-Copy code
 
 ---
 
