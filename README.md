@@ -1,1 +1,0 @@
-# technical-writing-pacman
