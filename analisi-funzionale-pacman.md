@@ -37,9 +37,9 @@ Il gioco è strutturato in **moduli funzionali** principali:
     
 2. Il sistema carica risorse grafiche, audio e configurazioni.
     
-3. Si presenta la **schermata iniziale** con musica e menu.
-    
-4. L’utente può scegliere: “Gioca”, “Classifica”, “Impostazioni”, “Guida”.
+3. Si presenta la **schermata del gioco**.
+
+4. L’utente può iniziare a giocare.
     
 
 **Output atteso:** visualizzazione interfaccia iniziale pronta all’input.
@@ -48,15 +48,15 @@ Il gioco è strutturato in **moduli funzionali** principali:
 
 ### 3.2 Avvio Partita
 
-1. L’utente seleziona **Gioca**.
+1. L’utente inizia a **giocare**.
     
 2. Il sistema:
     
-    - Genera o carica la **mappa del livello 1**.
+    - Genera o carica la **mappa**.
         
     - Inizializza **Pac-Man e fantasmi** nelle posizioni predefinite.
         
-    - Aziona timer, punteggio e vite.
+    - Aziona counter punteggio e vite.
         
     - Mostra la schermata di gioco con HUD attivo.
         
@@ -125,20 +125,7 @@ Ogni fantasma ha:
 
 ---
 
-### 3.6 Punteggio e Progressione
-
-- Ogni evento aggiorna il punteggio globale.
-    
-- Superata una soglia o raccolti tutti i punti → livello successivo.
-    
-- A ogni livello:
-    
-    - Velocità di Pac-Man e fantasmi aumenta.
-        
-    - Durata del power-up diminuisce.
-        
-    - Layout mappa può cambiare.
-        
+### 3.6 Gameplay e vittoria
 
 **Condizione di vittoria:** tutti i livelli completati o punteggio massimo raggiunto.  
 **Condizione di sconfitta:** vite = 0.
@@ -225,7 +212,7 @@ Ogni fantasma ha:
 
 |Categoria|Requisito|
 |---|---|
-|**Performance**|60 FPS costanti, caricamento < 2 s|
+
 |**Compatibilità**|Browser moderni, responsive mobile|
 |**Accessibilità**|Colori leggibili, controlli rimappabili|
 |**Manutenibilità**|Codice modulare, documentazione inline|
@@ -258,11 +245,9 @@ flowchart TD
 
 - Tutte le funzionalità F1–F7 completate e testate.
     
-- Gioco stabile ≥ 60 FPS in ambiente browser.
-    
 - Nessun bug critico durante 10 min di gioco continuo.
     
-- Leaderboard funzionante con almeno 10 punteggi registrati.
+- Score counter.
     
 - UX validata tramite sessioni di playtest.
     
