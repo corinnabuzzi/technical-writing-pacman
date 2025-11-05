@@ -25,29 +25,6 @@
 
 ---
 
-## 🗂️ Struttura della Repository
-
-pacman/
-│
-├── src/ # Codice sorgente del gioco
-│ ├── core/ # Game loop, gestione input, collisioni
-│ ├── entities/ # Pacamna, fantasmi, frutti, ecc.
-│ ├── levels/ # Mappe e logica dei livelli
-│ └── utils/ # Funzioni di supporto
-│
-├── assets/ # Sprite, suoni, font
-│
-├── docs/ # Documentazione tecnica e di sviluppo
-│ ├── design_notes.md
-│ ├── changelog.md
-│ └── roadmap.md
-│
-├── tests/ # Test automatici e prototipi
-│
-└── README.md # Questo file
-
----
-
 ## 🧠 Processo di sviluppo
 
 Il progetto segue un approccio **incrementale**:
