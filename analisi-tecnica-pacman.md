@@ -177,23 +177,6 @@ Esempio:
 
 ---
 
-## ![⚡](https://fonts.gstatic.com/s/e/notoemoji/16.0/26a1/72.png) **10. Performance & Ottimizzazione**
-
-- Target: **60 FPS stabili**
-    
-- Object pooling per FX e popup
-    
-- Reuse array, evitare closure per frame
-    
-- Preload asset + warm-up audio
-    
-- Profiling con DevTools + Phaser Inspector
-    
-- Budget CI: bundle < 400KB gz
-    
-
----
-
 ## ![🧩](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f9e9/72.png) **11. Accessibilità e UX Tecnica**
 
 - Rimappo tasti, pausa con Esc
