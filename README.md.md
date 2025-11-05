@@ -1,3 +1,4 @@
+
 ## 🎯 Obiettivi del progetto
 
 - Studiare e implementare i **principi fondamentali del game loop** (input → update → render).  
@@ -22,8 +23,7 @@
 | Documentazione | Markdown | Report di sviluppo e note tecniche |
 
 ---
-![[repo-strut.png]]
-
+![repo-structure](.\assets\repo-strut.png)
 ---
 
 ## 🧠 Processo di sviluppo
